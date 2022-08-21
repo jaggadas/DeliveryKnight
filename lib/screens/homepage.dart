@@ -70,6 +70,7 @@ class _HomePageState extends State<HomePage> {
                   color: kPrimaryColor,
                 ),
                 child: Container(
+
                     alignment: Alignment.bottomLeft,
                     child: Text(
                       gotData ? currentUser.name : 'Username',
